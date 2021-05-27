@@ -1,7 +1,7 @@
 # Chat Example
 
 This application shows how to use use the
-[websocket](https://github.com/btcsuite/websocket) package and
+[websocket](https://github.com/binance-chain/websocket) package and
 [jQuery](http://jquery.com) to implement a simple web chat application.
 
 **NOTE:** This is a fork/vendoring of http://github.com/gorilla/websocket
@@ -17,7 +17,7 @@ development environment.
 Once you have Go up and running, you can download, build and run the example
 using the following commands.
 
-    $ go get github.com/btcsuite/websocket
-    $ cd `go list -f '{{.Dir}}' github.com/btcsuite/websocket/examples/chat`
+    $ go get github.com/binance-chain/websocket
+    $ cd `go list -f '{{.Dir}}' github.com/binance-chain/websocket/examples/chat`
     $ go run *.go
 

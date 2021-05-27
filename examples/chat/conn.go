@@ -5,10 +5,11 @@
 package main
 
 import (
-	"github.com/btcsuite/websocket"
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/binance-chain/websocket"
 )
 
 const (

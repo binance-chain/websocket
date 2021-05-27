@@ -8,12 +8,13 @@ package main
 import (
 	"errors"
 	"flag"
-	"github.com/btcsuite/websocket"
 	"io"
 	"log"
 	"net/http"
 	"time"
 	"unicode/utf8"
+
+	"github.com/binance-chain/websocket"
 )
 
 var upgrader = websocket.Upgrader{
